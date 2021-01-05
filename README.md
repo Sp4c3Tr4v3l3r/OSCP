@@ -2,6 +2,11 @@
 
 ## Index
 
+### [Basics](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Basics.md)
+
+- [Linux](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Basics.md#linux)
+- [Windows](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Basics.md#windows)
+
 ### [Passive Information Gathering](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md)
 
 - [Censys](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#censys)
