@@ -68,12 +68,12 @@
 
 ### [Linux Privilege Escalation](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Linux%20Privilege%20Escalation.md)
 
--[Strategy]()
--[Permissions ]()
--[Attack Vectors]()
--[Common Exploits]()
--[Tools]()
--[Persistence]()
--[Hardening]()
+- [Strategy](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Linux%20Privilege%20Escalation.md#strategy)
+- [Permissions ](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Linux%20Privilege%20Escalation.md#permissions-in-linux)
+- [Attack Vectors](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Linux%20Privilege%20Escalation.md#attack-vectors)
+- [Common Exploits](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Linux%20Privilege%20Escalation.md#common-exploits)
+- [Tools](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Linux%20Privilege%20Escalation.md#tools)
+- [Persistence](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Linux%20Privilege%20Escalation.md#persistence)
+- [Hardening](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Linux%20Privilege%20Escalation.md#hardening)
 
 
