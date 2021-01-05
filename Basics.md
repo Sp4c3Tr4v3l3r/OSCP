@@ -80,22 +80,22 @@
 ### Command Prompt
 
 - Basic Commands
-  - Information Gathering
-	    - `arp -a`
-	    - `cmdkey /list`
-	    - `dism /online /get-features | more`
-	    - `ipconfig /all`
-	    - `ipconfig /displaydns`
-	    - `net accounts /domain`
-	    - `net group "Domain Admins" /domain`
-	    - `net group "Domain Controllers" /domain`
-	    - `net group /domain`
-	    - `net localgroup "Administrators"`
-	    - `net localgroup "Administrators" user /add`
-	    - `net share`
-	    - `netsh interface ip show interfaces`
-	    - `netstat –nao`
-	    - `nslookup IP`
+	- Information Gathering
+		- `arp -a`
+		- `cmdkey /list`
+		- `dism /online /get-features | more`
+		- `ipconfig /all`
+		- `ipconfig /displaydns`
+		- `net accounts /domain`
+		- `net group "Domain Admins" /domain`
+		- `net group "Domain Controllers" /domain`
+		- `net group /domain`
+		- `net localgroup "Administrators"`
+		- `net localgroup "Administrators" user /add`
+		- `net share`
+		- `netsh interface ip show interfaces`
+		- `netstat –nao`
+		- `nslookup IP`
   
 	- Copy & execute program on remote host
 		- `psexec /accepteula \\IP -c C:\Tools\program.exe -u DOMAIN\USER -p PASS`
@@ -130,19 +130,19 @@
 ### Powershell
 
 - Basic Commands
-  - Information Gathering
-	    - `Verb-noun`
-	    - `Get-Help COMMAND-NAME`
-	    - `Get-Help Get-Command -Examples`
-	    - `Get-Command Verb-*`
-	    - `Get-Command *-noun`
-	    - `Verb-Noun | Get-Member`
-	    - `Get-Command | Get-Member -MemeberType Method`
-	    - `Get-ChildItem | Select-Object -Property Name`
-	    - `Verb-Noun | Where-Object -Property PropertyName -operator Value`
-	    - `Get-Service | Where-Object -Property Status -eq Stopped`
-	    - `Get-ChildItem | Sort-Object`
-	    - `Get-ChildItem -Path C:\ -Include *interesting-file.txt* -File -Recurse -ErrorAction SilentlyContinue`
+	- Information Gathering
+		- `Verb-noun`
+		- `Get-Help COMMAND-NAME`
+		- `Get-Help Get-Command -Examples`
+		- `Get-Command Verb-*`
+		- `Get-Command *-noun`
+		- `Verb-Noun | Get-Member`
+		- `Get-Command | Get-Member -MemeberType Method`
+		- `Get-ChildItem | Select-Object -Property Name`
+		- `Verb-Noun | Where-Object -Property PropertyName -operator Value`
+		- `Get-Service | Where-Object -Property Status -eq Stopped`
+		- `Get-ChildItem | Sort-Object`
+		- `Get-ChildItem -Path C:\ -Include *interesting-file.txt* -File -Recurse -ErrorAction SilentlyContinue`
 
 - Basic Scripting
 
@@ -157,18 +157,18 @@ Test-NetConnection localhost -Port $i
 ```
 
 - Enumeration
-  - Enumeration
-	    - `Get-Acl c:/`
-	    - `Get-ScheduleTask -TaskName new-sched-task`
-	    - `Get-Process`
-	    - `Get-ChildItem C:\* -Recurse | Select-String -pattern API_KEY`
-	    - `Get-ChildItem -Path C:\ -Include *.bak* -File -Recurse -ErrorAction SilentlyContinue`
-	    - `Get-ComputerInfo`
-	    - `Get-Hotfix -Id KB4023834`
-	    - `Get-Hotfix | measure`
-	    - `Get-NetTCPConnection | Where-Object -Property State -Match Listen | measure`
-	    - `Get-NetIPAddress`
-	    - `Get-LocalGroup | measure`
-	    - `Get-LocalUser | Where-Object -Property PasswordRequired -Match false`
-	    - `Get-LocalUser | Get-Member`
-	    - `Get-LocalUser -SID "S-1-5-21-"`
+	- Enumeration
+		- `Get-Acl c:/`
+		- `Get-ScheduleTask -TaskName new-sched-task`
+		- `Get-Process`
+		- `Get-ChildItem C:\* -Recurse | Select-String -pattern API_KEY`
+		- `Get-ChildItem -Path C:\ -Include *.bak* -File -Recurse -ErrorAction SilentlyContinue`
+		- `Get-ComputerInfo`
+		- `Get-Hotfix -Id KB4023834`
+		- `Get-Hotfix | measure`
+		- `Get-NetTCPConnection | Where-Object -Property State -Match Listen | measure`
+		- `Get-NetIPAddress`
+		- `Get-LocalGroup | measure`
+		- `Get-LocalUser | Where-Object -Property PasswordRequired -Match false`
+		- `Get-LocalUser | Get-Member`
+		- `Get-LocalUser -SID "S-1-5-21-"`
