@@ -66,3 +66,14 @@
 - [Skeleton Ticket](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Active%20Directory.md#skeleton-ticket)
 - [Extra Mile](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Active%20Directory.md#extra-mile)
 
+### [Linux Privilege Escalation](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Linux%20Privilege%20Escalation.md)
+
+-[Strategy]()
+-[Permissions ]()
+-[Attack Vectors]()
+-[Common Exploits]()
+-[Tools]()
+-[Persistence]()
+-[Hardening]()
+
+
