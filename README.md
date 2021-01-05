@@ -5,7 +5,10 @@
 ### [Basics](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Basics.md)
 
 - [Linux](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Basics.md#linux)
+- [Network](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Basics.md#network)
+- [TCPDump](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Basics.md#tcpdump)
 - [Windows](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Basics.md#windows)
+- [Wireshark](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Basics.md#wireshark-example)
 
 ### [Passive Information Gathering](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md)
 
