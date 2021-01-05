@@ -144,18 +144,6 @@
 		- `Get-ChildItem | Sort-Object`
 		- `Get-ChildItem -Path C:\ -Include *interesting-file.txt* -File -Recurse -ErrorAction SilentlyContinue`
 
-- Basic Scripting
-
-	- `Get-ChildItem -Path C:\emails -Recurse | Select-String -Pattern http`
-``` $path = "C:\Users\Administrator\Desktop\emails\*"
-$string_pattern = "https://"
-$command = Get-ChildItem -Path $path -Recurse | Select-String -Pattern $String_patternecho $command
-	- Test-NetConnection localhost -Port 130
-	- for($i=130; $i -le 140; $i++){
-Test-NetConnection localhost -Port $i
-}
-```
-
 - Enumeration
 	- Enumeration
 		- `Get-Acl c:/`
