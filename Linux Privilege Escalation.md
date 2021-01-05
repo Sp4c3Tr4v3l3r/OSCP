@@ -1,6 +1,6 @@
 ## Linux Privilege Escalation
 
-- Strategy
+### Strategy
 
 	- Enumeration
 
@@ -19,7 +19,7 @@
 		- Enumerate root processes
 		- Check internal ports
 
-- Permissions in Linux
+### Permissions in Linux
 
 	- Users
 
@@ -115,7 +115,7 @@
 
 				- s in execution position
 
-- Attack Vectors
+### Attack Vectors
 
 	- Kernel
 
@@ -530,7 +530,7 @@ $ export –f /usr/sbin/service
 				- chmod +xs /tmp/nfs/shell.elf
 				- $ /tmp/shell.elf
 
-- Common Exploits
+### Common Exploits
 
 	- CVE-2010-3904
 
@@ -555,7 +555,7 @@ $ export –f /usr/sbin/service
 		- https://github.com/dirtycow/dirtycow.github.io/wiki/PoCs
 		- https://github.com/evait-security/ClickNRoot/blob/master/1/exploit.c
 
-- Tools
+### Tools
 
 	- Basic Information Gathering
 
@@ -699,7 +699,7 @@ $ export –f /usr/sbin/service
 
 		- https://github.com/jondonas/linux-exploit-suggester-2
 
-- Persistence
+### Persistence
 
 	- Create a root user
 
@@ -727,6 +727,6 @@ $ export –f /usr/sbin/service
 	- Backdoor Driver
 	- Backdoor APT.CONF.D
 
-- Hardening
+### Hardening
 
 	- https://github.com/ernw/hardening/blob/master/operating_system/linux/ERNW_Hardening_Linux.md
