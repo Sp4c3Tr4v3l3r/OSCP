@@ -199,32 +199,27 @@
 		
 ## Wireshark (Example)
 
-### Follow = TCP Stream / UDP Stream 
+- Follow = TCP Stream / UDP Stream 
 
-### Frame 1
+- Frame 1
+	- This is showing details from the physical layer
+	- The size of the packet received in terms of bytes
 
-- This is showing details from the physical layer
-- The size of the packet received in terms of bytes
+- Ethernet II
+	- This is showing details from the Data Link layer 
+	- The transmission medium, source and destination MAC addresses of the request.
 
-### Ethernet II
+- Internet Protocol Version 4
+	- This is showing details from the Network layer
+	- The source and destination IP addresses of the request.
 
-- This is showing details from the Data Link layer 
-- The transmission medium, source and destination MAC addresses of the request.
+- Transmission Control Protocol
+	- This is showing details from the Transport layer
+	- Protocol, etc
 
-### Internet Protocol Version 4
-
-- This is showing details from the Network layer
-- The source and destination IP addresses of the request.
-
-### Transmission Control Protocol
-
-- This is showing details from the Transport layer
-- Protocol, etc
-
-### Hypertext Transfer Protocol / Domain Name System / etc
-
-- This is showing details from the Application layer 
-- HTTP GET request
+- Hypertext Transfer Protocol / Domain Name System / etc
+	- This is showing details from the Application layer 
+	- HTTP GET request
 
 ## TCPDump
 
