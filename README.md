@@ -45,3 +45,8 @@
 - [Virtual Private Networks](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Active%20Information%20Gathering.md#virtual-private-networks)
 - [Windows](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Active%20Information%20Gathering.md#microsoft-windows)
 - [Web Server](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Active%20Information%20Gathering.md#web-server)
+
+### [Getting Shell](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Getting%20Shell.md)
+
+- [Reverse Shell](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Getting%20Shell.md#reverse-shell)
+- [Spawning Shell](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Getting%20Shell.md#spawning-shell)
