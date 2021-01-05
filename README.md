@@ -26,7 +26,7 @@
 - [Wigle](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#wigle)
 - [ZoomEye](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#zoomeye)
 
-### [Active](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md)
+### [Active Information Gathering](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md)
 
 - [DNS](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#dns)
 - [Databases](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#databases)
