@@ -25,3 +25,14 @@
 - [TinfoLeak](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#tinfoleak)
 - [Wigle](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#wigle)
 - [ZoomEye](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#zoomeye)
+
+### [Active](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md)
+
+- [DNS](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#dns)
+- [Databases](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#databases)
+- [File Transfer](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#files-transfer)
+- [Mail](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#mail)
+- [Microsoft Windows](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#microsoft-windows)
+- [Port Scanning](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#port-scanning)
+- [Virtual Private Networks](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#virtual-private-networks)
+- [Web Server](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#web-server)
