@@ -76,4 +76,12 @@
 - [Persistence](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Linux%20Privilege%20Escalation.md#persistence)
 - [Hardening](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Linux%20Privilege%20Escalation.md#hardening)
 
+### [Windows Privilege Escalation](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Linux%20Privilege%20Escalation.md)
+
+- [Strategy](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Windows%20Privilege%20Escalation.md#strategy)
+- [User Privileges](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Windows%20Privilege%20Escalation.md#user-privileges)
+- [Attack Vectors](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Windows%20Privilege%20Escalation.md#attack-vectors)
+- [Tools](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Windows%20Privilege%20Escalation.md#tools)
+- [Persistence](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Windows%20Privilege%20Escalation.md#persistence)
+- [Hardening](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Windows%20Privilege%20Escalation.md#hardening)
 
