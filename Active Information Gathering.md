@@ -36,15 +36,15 @@
 - DNS Hacking Tools
 	- Dig
 		- DNS querying tool.
-		- *Finding SOA*
+		- Finding SOA
 		  - `dig $URL SOA`
 		  - `dig $PRIMARY_NAME_SERVER`
-		- *Digging for Information*
+		- Digging for Information
 		  - `dig @$NAME_SERVER $DOMAIN_NAME`
 		  - `dig @$IP $NAME_SERVER`
-		- *Specifying Resource Records*
+		- Specifying Resource Records
 		  - `dig @$NAME_SERVER $DOMAIN_NAME $RECORD_TYPE`
-		- *Information Leak CHAOS*
+		- Information Leak CHAOS
 		  - `dig @$NAME_SERVER chaos $DOMAIN_NAME $RECORD_TYPE`
 	- NSlookup
 		- DNS querying tool.
@@ -132,11 +132,8 @@
   - NC
     - `nc $IP 80`
     - `GET / HTTP/1.1`
-      - `host: foo`
     - `HEAD / HTTP/1.1`
-      - `host: foo`
     - `OPTIONS / HTTP/1.1`
-      - `host: foo`
 - Web Server Hacking Tools
 	- Command-line web tools
 		- CURL
@@ -254,12 +251,14 @@
 	- Netbios over TCP/IP (NBT) protocol
 
 - Files Transfer Hacking Tools
+
 	- FTP
-    - Creds
-		  - `anonymous:anonymous`
+		- Creds
+			- `anonymous:anonymous`
+	
 	- TFTP
-    - TFTP
-		  - `tftp $IP`
+		- TFTP
+			- `tftp $IP`
 	- NetBios
 		- NBTScan
 			- `nbtscan -v $IP`
@@ -267,26 +266,19 @@
 		- Enum4Linux
 			- `enum4linux -a $IP`
 		- Nbt Scan
-			- `nbtscan -r $IP/24`
-				
+			- `nbtscan -r $IP/24`	
 		- Nmblookup
 			- `nmblookup -A $IP`
-
 		- Smbmap
 			- `smbmap -u $USER -p $PASSWORD -R -H $IP`
-
 		- Smbclient
 			- `smbclient -L $IP`
-
 		- RpcClient
-
 			- `rpcclient -U "" -N $IP`
 			- `> enumdomusers`
-
 		- Nmap NSE Scripts
 			- `ls -1 /usr/share/nmap/scripts/smb*`
 			- `nmap -v -p 139, 445 --script=smb-os-discovery $IP`
-
 	- Mount
 		- `mount -t cifs -o vers=1.0,user=guest \\\\$IP\\data /mnt/data`
 		- `mount -t cifs -o vers=1.0,user=employee1 \\\\$IP\\data /mnt/data`
@@ -296,7 +288,6 @@
 			- `mount -o nolock $IP:/home ~/home/`
 			- `showmount -e $IP`
 			- `sudo adduser pwn`
-
 		- Nmap NSE Script
 			- `ls -1 /usr/share/nmap/scripts/nfs*`
 			- `nmap -sV -p 111 --script=rpcinfo $IP`
