@@ -160,3 +160,78 @@
 		- `Get-LocalUser | Where-Object -Property PasswordRequired -Match false`
 		- `Get-LocalUser | Get-Member`
 		- `Get-LocalUser -SID "S-1-5-21-"`
+
+## Network
+
+### All People Seem To Need Data Processing
+
+- Application
+	- HTTP, SMTP...
+		- Accepts communication requests from applications
+
+- Presentation
+	- WMV, JPEG, MOV...
+		- Transform data to give format
+
+- Session
+	- Session management
+		- Tracks communication between host/receiver
+
+- Transport
+	- TCP
+		- Segments
+
+	- UDP
+		- Datagrams
+
+- Network
+	- IP Address, Routing...
+		- Logical addressing
+
+- Data Link
+	- Switching, Mac Address...
+		- Check received packets
+		- Data formatted for transmission
+
+- Physical
+	- Cables
+		- Transmit/Receives data
+		
+## Wireshark (Example)
+
+### Follow = TCP Stream / UDP Stream 
+
+### Frame 1
+
+- This is showing details from the physical layer
+- The size of the packet received in terms of bytes
+
+### Ethernet II
+
+- This is showing details from the Data Link layer 
+- The transmission medium, source and destination MAC addresses of the request.
+
+### Internet Protocol Version 4
+
+- This is showing details from the Network layer
+- The source and destination IP addresses of the request.
+
+### Transmission Control Protocol
+
+- This is showing details from the Transport layer
+- Protocol, etc
+
+### Hypertext Transfer Protocol / Domain Name System / etc
+
+- This is showing details from the Application layer 
+- HTTP GET request
+
+## TCPDump
+
+- `tcpdump -r password_cracking_filtered.pcap`
+- `tcpdump -n -r password_cracking_filtered.pcap | awk -F" " '{print $3 }' | sort | uniq -c | head`
+- `tcpdump -n src host 172.16.40.10 -r password_cracking_filtered.pcap`
+- `tcpdump -n dst host 172.16.40.10 -r password_cracking_filtered.pcap`
+- `tcpdump -n port 81 -r password_cracking_filtered.pcap`
+- `tcpdump -nX -r password_cracking_filtered.pcap`
+
