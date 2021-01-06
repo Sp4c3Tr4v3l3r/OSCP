@@ -4,6 +4,7 @@
 
 ### [Basics](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Basics.md)
 
+- [Fixing Exploits](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Basics.md#fixing-exploits)
 - [Linux](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Basics.md#linux)
 - [Network](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Basics.md#network)
 - [TCPDump](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Basics.md#tcpdump)
