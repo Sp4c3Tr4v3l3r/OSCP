@@ -52,6 +52,21 @@
 - [Spawning Shell](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Getting%20Shell.md#spawning-shell)
 
 
+### [Tunneling](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Tunneling.md)
+
+- [Explore Hidden Networks With Double Pivoting](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Tunneling.md#explore-hidden-networks-with-double-pivoting)
+- [Port Forwarding in Windows](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Tunneling.md#port-forwarding-in-windows)
+- [Portforwarding](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Tunneling.md#portforwarding)
+- [Portfwd](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Tunneling.md#portfwd)
+- [ProxyTunnels](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Tunneling.md#proxytunnels)
+- [Proxychains-ng](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Tunneling.md#proxychains-ng)
+- [Proxychains](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Tunneling.md#proxychains)
+- [SSH Dynamic Port Forwarding](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Tunneling.md#ssh-dynamic-port-forwarding)
+- [SSH Tunneling Explained](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Tunneling.md#ssh-tunneling-explained)
+- [SShuttle (Totally Recommend learning this)](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Tunneling.md#sshuttle-totally-recommend-learning-this)
+- [SShuttle Documentation](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Tunneling.md#sshuttle-documentation)
+- [Tunneling and Pivoting](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Tunneling.md#tunneling-and-pivoting)
+
 ### [Active Directory](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Active%20Directory.md)
 
 - [Attack Privilege Requirements](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Active%20Directory.md#attack-privilege-requirements)
