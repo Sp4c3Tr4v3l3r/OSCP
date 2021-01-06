@@ -1,4 +1,4 @@
-# Tunneling
+## Tunneling
 
 ### SSH Dynamic Port Forwarding
 - https://artkond.com/2017/03/23/pivoting-guide/
@@ -6,31 +6,31 @@
 ### Proxychains-ng
 - https://github.com/rofl0r/proxychains-ng
 
-### SSHuttle (Totally Recommend learning this)
+### SShuttle (Totally Recommend learning this)
 - https://github.com/sshuttle/sshuttle
 
-### SSHuttle Documentation
+### SShuttle Documentation
 - https://sshuttle.readthedocs.io/en/stable/
 
-## Portforwarding
+### Portforwarding
 - https://www.abatchy.com/2017/01/port-forwarding-practical-hands-on-guide
 
-## Port Forwarding in Windows
+### Port Forwarding in Windows
 - http://woshub.com/port-forwarding-in-windows/
 
-## SSH Tunneling Explained
+### SSH Tunneling Explained
 - https://chamibuddhika.wordpress.com/2012/03/21/ssh-tunnelling-explained/
 
-## ProxyTunnels
+### ProxyTunnels
 - https://www.offensive-security.com/metasploit-unleashed/proxytunnels/
 
-## Portfwd
+### Portfwd
 - https://www.offensive-security.com/metasploit-unleashed/portfwd/
 
-## Explore Hidden Networks With Double Pivoting
+### Explore Hidden Networks With Double Pivoting
 - https://pentest.blog/explore-hidden-networks-with-double-pivoting/
 
-## Tunneling and Pivoting
+### Tunneling and Pivoting
 - https://0xdf.gitlab.io/2019/01/28/pwk-notes-tunneling-update1.html
 
 ### Proxychains
