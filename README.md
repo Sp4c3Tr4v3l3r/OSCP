@@ -52,6 +52,10 @@
 - [Reverse Shell](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Getting%20Shell.md#reverse-shell)
 - [Spawning Shell](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Getting%20Shell.md#spawning-shell)
 
+### [Transferring Files](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Transferring%20Files.md)
+
+- [Linux](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Transferring%20Files.md#linux)
+- [Windows](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Transferring%20Files.md#windows)
 
 ### [Tunneling](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Tunneling.md)
 
