@@ -105,3 +105,5 @@
 - [Persistence](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Windows%20Privilege%20Escalation.md#persistence)
 - [Hardening](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Windows%20Privilege%20Escalation.md#hardening)
 
+#### Disclaimer
+*The content within this repository is for educational purposes only. It is designed to help users test their own system against information security threats and protect their IT infrastructure from similar attacks.*
