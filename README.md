@@ -13,6 +13,7 @@
 
 ### [Passive Information Gathering](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md)
 
+- [Criminalip](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#criminalip)
 - [Censys](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#censys)
 - [Google Hacking](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#google-hacking)
 - [Grey Noise](https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Passive%20Information%20Gathering.md#grey-noise)
